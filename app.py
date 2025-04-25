@@ -18,8 +18,8 @@ st.set_page_config(page_title="Smart-Trash Offline Classifier",
                    page_icon="🗑️",
                    layout="centered")
 # ── 1. Config ───────────────────────────────────────────────────
-MODEL_FILE  = pathlib.Path("workspace/model_int8_dyn.pt")   # rename if you used FX static
-LABELS_FILE = pathlib.Path("workspace/labels.txt")          # one class per line
+MODEL_FILE  = pathlib.Path("model_int8_dyn.pt")   # rename if you used FX static
+LABELS_FILE = pathlib.Path("labels.txt")          # one class per line
 IMG_SIZE    = 224
 CONF_THRES  = 0.70                                # 70 % threshold
 
